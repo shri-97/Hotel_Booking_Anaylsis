@@ -67,3 +67,17 @@ total_of_special_requesrs: Number of special requests made by the customer
 reservation_statuse: Reservation status(Canceled, check-out or no-show)
 
 reservation_status_date: Date at which the last reservation status was updated
+
+# Data cleaning and manipulation:
+
+# Duplicate values
+
+Dataset have 31994 duplicate values. so these duplicate values are removedfrom dataset using.drop_dupliactes(). After droping duplicate value shape of the dataset become 87396 rows and 32 columns.
+
+# Missing values/null values
+Given dataset have 4 columns company, aent, country and children missing values so these values are replace by usin .fillna() function.
+
+# Addition of new columns
+Total_people and Total_stay these two columns are added in given dataset Some rows are removed from columns adults, children and babies.
+
+# Exploratory Data Analysis
