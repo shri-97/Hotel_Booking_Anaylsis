@@ -96,6 +96,8 @@ Kdeplot
 
 Boxplot
 
+Heatmap
+
 # Performed EDA and tried answering the following questions:
 1) Which type of hotel is mostly preferred by the guests?
 2) Which type of food is mostly preferred by the guests?
